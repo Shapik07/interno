@@ -11,8 +11,16 @@
 
   color: #ffa5ba;
 
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+
+  @media screen and (min-width: 1200px) {
     max-width: 100%;
+    margin-bottom: 0;
+    font-size: 30px;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -26,6 +34,17 @@ letter-spacing: 0.04em;
 text-transform: uppercase;
 
 color: #D41443;
+
+@media screen and (min-width: 768px) {
+  font-size: 48px;
+  letter-spacing: 0.06em;
+}
+
+@media screen and (min-width: 1200px) {
+  font-size: 58px;
+  line-height: 1.14;
+  letter-spacing: 0.06em;
+}
 }
 
 .social-network {
@@ -59,6 +78,14 @@ text-align: right;
 margin-bottom: 40px;
 
 color: #000000;
+
+@media screen and (min-width: 768px) {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 1200px) {
+  margin-bottom: 0;
+}
 }
 
 .footer-contact__tel {
@@ -80,9 +107,21 @@ font-weight: 700;
 font-size: 14px;
 line-height: 152%;
 padding-top: 16px;
+
 text-align: center;
 
 color: #907E82;
+
+@media screen and (min-width: 768px) {
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 1200px) {
+  padding-top: 4px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+}
+
 }
 
 .thumb {
@@ -91,6 +130,10 @@ color: #907E82;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 60px;
   }
 }
 
