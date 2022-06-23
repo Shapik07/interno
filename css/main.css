@@ -58,7 +58,7 @@ p {
     width: 768px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
   }
@@ -71,8 +71,14 @@ p {
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
+  max-width: 234px;
   margin-bottom: 40px;
   color: #ffa5ba;
+}
+@media screen and (min-width: 1280px) {
+  .slogan {
+    max-width: 100%;
+  }
 }
 
 .slogan-color {
@@ -135,6 +141,21 @@ p {
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
+  padding-top: 16px;
   text-align: center;
   color: #907E82;
+}
+
+@media screen and (min-width: 768px) {
+  .thumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
 }/*# sourceMappingURL=main.css.map */

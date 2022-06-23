@@ -5,10 +5,15 @@
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
+  max-width: 234px;
 
   margin-bottom: 40px;
 
   color: #ffa5ba;
+
+  @media screen and (min-width: 1280px) {
+    max-width: 100%;
+  }
 }
 
 .slogan-color {
@@ -42,6 +47,7 @@ justify-content: flex-end
 padding-left: 29px;
 }
 
+
 .footer-contact {
   font-family: 'DM Sans';
 font-style: normal;
@@ -73,8 +79,18 @@ border: 1px solid #E1E1E1;
 font-weight: 700;
 font-size: 14px;
 line-height: 152%;
-
+padding-top: 16px;
 text-align: center;
 
 color: #907E82;
 }
+
+.thumb {
+
+  @media screen and (min-width: 768px){
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+
