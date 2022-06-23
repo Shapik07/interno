@@ -121,6 +121,7 @@ p {
   padding: 0;
   margin: 0;
   margin-bottom: 40px;
+  gap: 29px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -132,7 +133,6 @@ p {
 }
 
 .social-network__link {
-  padding-left: 29px;
   fill: #FEA5BB;
 }
 .social-network__link:hover, .social-network__link:focus {
@@ -181,6 +181,13 @@ p {
   text-align: center;
   color: #907e82;
 }
+@media screen and (max-width: 767px) {
+  .author {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (min-width: 768px) {
   .author {
     padding-top: 8px;
@@ -205,6 +212,9 @@ p {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media screen and (min-width: 1200px) {
