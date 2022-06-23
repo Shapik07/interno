@@ -98,7 +98,7 @@ p {
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #D41443;
+  color: #d41443;
 }
 @media screen and (min-width: 768px) {
   .slogan-color {
@@ -133,6 +133,10 @@ p {
 
 .social-network__link {
   padding-left: 29px;
+  fill: #FEA5BB;
+}
+.social-network__link:hover, .social-network__link:focus {
+  fill: #D41443;
 }
 
 .footer-contact {
@@ -157,7 +161,7 @@ p {
 }
 
 .footer-contact__tel {
-  color: #D41443;
+  color: #d41443;
 }
 
 .footer-line {
@@ -165,7 +169,7 @@ p {
   width: 100%;
   height: 0px;
   left: 0px;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
 }
 
 .author {
@@ -175,7 +179,7 @@ p {
   line-height: 152%;
   padding-top: 16px;
   text-align: center;
-  color: #907E82;
+  color: #907e82;
 }
 @media screen and (min-width: 768px) {
   .author {
