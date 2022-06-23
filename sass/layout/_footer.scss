@@ -11,14 +11,19 @@
 
   color: #ffa5ba;
 
+  @media screen and (max-width: 767px) {
+    margin-bottom: 16;
+  }
+
   @media screen and (min-width: 768px) {
     font-size: 26px;
     letter-spacing: 0.04em;
+    margin-bottom: 12px;
   }
 
   @media screen and (min-width: 1200px) {
     max-width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     font-size: 30px;
     letter-spacing: 0.04em;
   }
@@ -35,15 +40,22 @@
 
   color: #d41443;
 
+  @media screen and (max-width: 767px) {
+    max-width: 234px;
+    margin-bottom: 40px;
+  }
+
   @media screen and (min-width: 768px) {
     font-size: 48px;
     letter-spacing: 0.06em;
+    max-width: 340px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 58px;
     line-height: 1.14;
     letter-spacing: 0.06em;
+    max-width: 100%;
   }
 }
 
@@ -145,4 +157,9 @@
   @media screen and (min-width: 1200px) {
     margin-bottom: 60px;
   }
+}
+
+.slogan-thumb {
+  display: flex;
+  flex-direction: column;
 }
