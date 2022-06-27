@@ -25,60 +25,39 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   
-  <body>
-   <section class="footer-cection container">
-     <h2 class="visually-hidden">Контактная информация</h2>
-        <div class="thumb">
-          <div class="slogan-thumb">
-          <p class="slogan">homemade ice cream made</p>
-          <p class="slogan-color">with passion</p>
-          </div>
-        <div class="footer-contacts">
-        <ul class="social-network">
-          <li class="social-network__item">
-            <a href="" class="social-network__link">
-              <svg class="social-network__icon">
-            <use 
-            href="./img/symbol-defs.svg#icon-github"
-            width="34"
-            height="34"
-            class="salut"
-            aria-label="GitGub">
-            </use>
-          </svg>
-            </a>
-        </li>
-          <li class="social-network__item">
-            <a href="" class="social-network__link">
-              <svg class="social-network__icon">
-            <use 
-            href="./img/symbol-defs.svg#icon-telegram"
-            width="34"
-            height="34"
-            aria-label="Telegram">
-            </use>
-          </svg>
-            </a>
-        </li>
-          <li class="social-network__item">
-            <a href="" class="social-network__link">
-              <svg class="social-network__icon">
-            <use 
-            href="./img/symbol-defs.svg#icon-facebook"
-            width="34"
-            height="34"
-            aria-label="Facebook">
-            </use>
-          </svg>
-            </a>
-        </li>
-        </ul>
-        <address class="footer-contact">Feel free to contact <a class="footer-contact__tel" href="tel:+610383766284">+61 (0) 383 766 284</a></address>
-        </div>
-        </div>
-        <span class="footer-line"></span>
-        <p class="author">© 2022 - IceCream. All Rights Reserved. </p>
-      </section>
+  <section class="about">
+  <div class="container">
+    <p class="about__header">TRADITION AND LOVE</p>  
+    <h2 class="about__title" id="aboutus">HOW IT`S MADE?</h2>
+    <div class="about__box" >
+      <div class="about__img">
+        <picture>
+          <source 
+            media="(max-width: 767px)"
+            srcset="./images/decorative/about/img-mobile.png 1x, ./images/decorative/about/img-mobile@2x.png 2x"
+            type="image/png">
+          <source
+            media="(min-width: 768px) and (max-width: 1199.98px)"
+            srcset="./images/decorative/about/img-tablet.png 1x, ./images/decorative/about/img-tablet@2x.png 2x"
+            type="image/png">
+          <source 
+            media="(min-width: 1200px)"
+            srcset="./images/decorative/about/img-desktop.png 1x, ./images/decorative/about/img-desktop@2x.png 2x"
+            type="image/png">
+            <img src="./images/decorative/about/img-mobile.png" 
+            alt="cow and jug of milk"
+             width="280" height="279">
+        </picture> 
+      </div>
+      <div class="about__thumb">
+        <p class="about__text">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</p>
+        <p class="about__text about__text--color">Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.Aliquam erat volutpat. Aenean accumsan.</p>
+        <button class="about__button" type="button">Read more<span class="about__logo">&#62;</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <script src="./js/test.js"></script>
   </body>
